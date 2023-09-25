@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+header .logo {
+    width: 130px;
+}
+
+header nav {
+    width: 50%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+header nav ul .pesquisa {
+    width: 4%;
+    height: 100%;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+header nav ul .logocanal {
+    width: 4%;
+    height: 100%;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: all .6s;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid whitesmoke;
+}
+
+main {
+    
+    width: 100%;
+}
+
+main .content-container {
+    width: 50%;
+
+    padding: 50px 60px;
+}
+
+main .content-container .logo-content {
+    width: 60%;
+}
+
+main .content-container .btn-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+main .content-container .btn-container button {
+    width: 150px;   
+    height: 48px;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    background: rgb(17, 83, 109);
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;    
+    transition: all 0.6s;    
+}
+
+main .content-container .btn-container button:hover {
+    background: rgb(73, 136, 161);
+}
+
+main .content-container p {
+    color: white;
+    font-size: 1.06rem;
+    font-weight: lighter;
+}
+
+
+main .content-container .btn2-container {
+    width: 100%;
+}
+
+main .content-container .btn2-container button {
+    width: 230px;   
+    height: 58px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    background: rgb(17, 83, 109);
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;    
+    transition: all 0.6s;    
+}
+
+main .content-container .btn2-container button:hover {
+    background: rgb(77, 152, 182);
+}
+
+main .content-container .btn2-container button .btn-play {
+    width: 15px; filter: invert(1);
+}
+
+.btn2-container button .text-container {
+    margin-left: 15px;
+    text-align: start;
+}
+
+.btn2-container button .text-container p {
+    margin: 0;
+}
